@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="nbnhhsh",
+    name="nbnhhsh-python",
     version="0.1",
     author="purofle",
     author_email="3272912942@qq.com",
