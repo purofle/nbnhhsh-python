@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="nbnhhsh-python",
+    name="nbnhhsh",
     version="0.0.1",
     author="purofle",
     author_email="3272912942@qq.com",
@@ -12,10 +12,17 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/purofle/nbnhhsh-python",
+    entry_points={
+        'console_scripts': [
+            'nbnhhsh=nbnhhsh.cmd:main',
+
+        ],
+
+    },
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache-2.0",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.4',
