@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nbnhhsh",
-    version="1.0",
+    version="1.1.1",
     author="purofle",
     author_email="3272912942@qq.com",
     description="nbnhhsh的python版本",
