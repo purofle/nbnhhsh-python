@@ -1,7 +1,7 @@
 import sys
 import argparse
 
-from nbnhhsh import suo
+from .nbnhhsh import suo
 
 def main():
     parser = argparse.ArgumentParser(description="一个转换缩写的工具")
